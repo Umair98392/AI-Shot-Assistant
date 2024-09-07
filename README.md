@@ -64,7 +64,6 @@ cd cricshot-AI
     ```
 
 - Access the FastAPI documentation at `http://127.0.0.1:8000/docs` to interact with the APIs.
-- or check the demo on https://huggingface.co/spaces/Umair98392/lms
 
 ### II. Spring Boot Backend for Authentication and Authorization
 
