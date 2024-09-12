@@ -97,7 +97,7 @@ function CheckshotVid() {
       const formData = new FormData();
       formData.append('file', uploadedVideo);
       
-      const response = await fetch('https://umair98392-cricshot.hf.space/predict_video', {
+      const response = await fetch('http://127.0.0.1:8000/predict_video', {
         method: 'POST',
         body: formData,
       });

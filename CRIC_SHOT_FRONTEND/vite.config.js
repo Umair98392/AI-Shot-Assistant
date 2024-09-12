@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   // server:{
   //   proxy:{
-  //     '/lol':'https://sturgeon-light-especially.ngrok-free.app/predict';
+  //     '/lol':'http://127.0.0.1:8000/predict';
   //   },
   // },
   plugins: [react()],

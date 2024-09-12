@@ -53,7 +53,7 @@ const[user,setUser]=useState(0)
       
       // Make an actual API request to your backend
       
-      const response = await fetch('https://umair98392-cricshot.hf.space/predict', {
+      const response = await fetch('http://127.0.0.1:8000/predict', {
       method: 'POST',
         body: formData,
       });
